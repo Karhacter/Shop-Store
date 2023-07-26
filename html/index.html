@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <title>SweetShop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="data:image/jpeg;base64,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">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="javascript:void(0)">SweetShop</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="javascript:void(0)">AboutUs</a>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">  
+                        <a class="nav-link" href="javascript:void(0)">Product</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Link 1</a></li>
+                      <li><a class="dropdown-item" href="#">Link 2</a></li>
+                      <li><a class="dropdown-item" href="#">Link 3</a></li>
+                    </ul>
+                  </div>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-outline-success me-1" type="button">Search</button>
+              <a class="btn"><i class="fa fa-shopping-basket">Cart</i></a>
+              <button type="button" class="fa fa-sign-in" data-bs-toggle="modal" data-bs-target="#myModal">
+                
+              </button>
+              <a class="btn"><i class="fa fa-sign-in">Register</i></a>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </nav>
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                    </div>
+                    
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="../image/BANNER1.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../image/BANNER2.jpg" alt="Chicago" class="d-block" style="width:100%">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="../image/BANNER3.jpg" alt="New York" class="d-block" style="width:100%">
+                      </div>
+                    </div>
+                    
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+        
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="col-md-3 mt-2 w-100">
+                        <ul class="list-group">
+                            <li class="list-group-item active">Men</li>
+                            <li class="list-group-item">Jean</li>
+                            <li class="list-group-item">T-Shirt</li>
+                            <li class="list-group-item">Suit</li>
+                        </ul>
+
+                        <ul class="list-group">
+                            <li class="list-group-item active">Women</li>
+                            <li class="list-group-item">Cressese</li>
+                            <li class="list-group-item">Shoes</li>
+                            <li class="list-group-item">Bage</li>
+                        </ul>
+                        
+                        <ul class="list-group">
+                            <li class="list-group-item active">Kids</li>
+                            <li class="list-group-item">Toys</li>
+                            <li class="list-group-item">Games</li>
+                            <li class="list-group-item">Books</li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-12 border text-warning bg-secondary ">New Product</div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-3 card-deck justify-content-center">
+                        <div class="card" style="width:220px" >
+                            <img class="card-img-top" src="../image/img_avatar.png" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                              <h4 class="card-title">John Doe</h4>
+                              <p class="card-text">Some example text <br> some example text. <br>some example text</p>
+                              <a href="#" class=""><i class="fa fa-shopping-cart " style="font-size:24px;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 card-deck justify-content-center">
+                        <div class="card" style="width:220px">
+                            <img class="card-img-top" src="../image/img_avatar.png" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                              <h4 class="card-title">John Doe</h4>
+                              <p class="card-text">Some example text <br> some example text. <br>some example text</p>
+                              <a href="#" class=""><i class="fa fa-shopping-cart" style="font-size:24px;"></i></a>
+                            </div>
+                        </div>  
+                    </div>
+
+                    <div class="col-md-3 card-deck justify-content-center">
+                            <div class="card" style="width:220px">
+                                <img class="card-img-top" src="../image/img_avatar.png" alt="Card image" style="width:100%">
+                                <div class="card-body">
+                                <h4 class="card-title">John Doe</h4>
+                                <p class="card-text">Some example text <br> some example text. <br>some example text</p>
+                                <a href="#" class=""><i class="fa fa-shopping-cart" style="font-size:24px;"></i></a>
+                            </div>
+                        </div> 
+                    </div>
+
+                    <div class="col-md-3 card-deck justify-content-center">
+                        <div class="card" style="width:220px">
+                                <img class="card-img-top" src="../image/img_avatar.png" alt="Card image" style="width:100%">
+                                <div class="card-body">
+                                <h4 class="card-title">John Doe</h4>
+                                <p class="card-text">Some example text <br> some example text. <br>some example text</p>
+                                <a href="#" class=""><i class="fa fa-shopping-cart " style="font-size:24px;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+
+
+                    <div class="row">
+                        <div class="col-md-12 border text-success bg-dark">Best Seller</div>
+                    </div>
+                    
+                    <div class="row">
+
+                        <div class="col-md-3 card-deck justify-content-center">
+                            <div class="card" style="width:220px" >
+                                <img class="card-img-top" src="../image/img_avatar.png" alt="Card image" style="width:100%">
+                                <div class="card-body">
+                                  <h4 class="card-title">John Doe</h4>
+                                  <p class="card-text">Some example text <br> some example text. <br>some example text</p>
+                                  <a href="#" class=""><i class="fa fa-shopping-cart " style="font-size:24px;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-md-3 card-deck justify-content-center">
+                            <div class="card" style="width:220px">
+                                <img class="card-img-top" src="../image/img_avatar.png" alt="Card image" style="width:100%">
+                                <div class="card-body">
+                                  <h4 class="card-title">John Doe</h4>
+                                  <p class="card-text">Some example text <br> some example text. <br>some example text</p>
+                                  <a href="#" class=""><i class="fa fa-shopping-cart" style="font-size:24px;"></i></a>
+                                </div>
+                            </div>  
+                        </div>
+    
+                        <div class="col-md-3 card-deck justify-content-center">
+                                <div class="card" style="width:220px">
+                                    <img class="card-img-top" src="../image/img_avatar.png" alt="Card image" style="width:100%">
+                                    <div class="card-body">
+                                    <h4 class="card-title">John Doe</h4>
+                                    <p class="card-text">Some example text <br> some example text. <br>some example text</p>
+                                    <a href="#" class=""><i class="fa fa-shopping-cart" style="font-size:24px;"></i></a>
+                                </div>
+                            </div> 
+                        </div>
+    
+                        <div class="col-md-3 card-deck justify-content-center">
+                            <div class="card" style="width:220px">
+                                    <img class="card-img-top" src="../image/img_avatar.png" alt="Card image" style="width:100%">
+                                    <div class="card-body">
+                                    <h4 class="card-title">John Doe</h4>
+                                    <p class="card-text">Some example text <br> some example text. <br>some example text</p>
+                                    <a href="#" class=""><i class="fa fa-shopping-cart" style="font-size:24px;"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid"></div>
+</body>
+</html>
